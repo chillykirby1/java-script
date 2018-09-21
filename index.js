@@ -12,5 +12,5 @@ let male = true;
 console.log(firstname);
 console.log(lastname);
 console.log(15);
-console.log(some);
+console.log(hair);
 console.log("am i male? " + male);
