@@ -7,10 +7,13 @@ let kalebGriffiths = [];
 kalebGriffiths = ["kaleb","Griffiths",15,29,null,true]
 
 
-// print variables to console
-console.log(kalebGriffiths);
 
-console.log("last name is: " + kalebGriffiths[1]);
+
+
+
+
+
+console.log("last name of kalebGriffiths is: " + kalebGriffiths[1]);
 
 kalebGriffiths [1]="is awesome";
 console.log(kalebGriffiths[1]);
