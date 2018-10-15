@@ -8,11 +8,24 @@ console.log ("My letter grade is", calculatedGrade (average), "because my numeri
 //This function uses another function, call Single Concern Function (able to use either function for various purposes)
 function calculatedGrade (marks) {
   const average = calculateAverage (marks);
-  if (79 <= average < 89) return 'B';
-  if (69 <= average < 79) return 'C';
-  if (60 <= average < 69) return 'D'; //Add approriate conditional
-  if (average < 60) return 'F'; //Add appropriate grade or feedback
-  return 'A'; //This is the last grade left, using the funnel image (metaphor)
+
+  if (79 <= average)
+  if (averge < 89)
+  return 'B';
+
+  if (69 <= average)
+  if (average < 79)
+  return 'C';
+
+  if (60 <= average)
+  if (average < 69)
+  return 'D';
+
+  if (0 < average)
+  if (average < 59)
+  return 'F';
+
+  return 'A';
 }
 function calculteAverage (array) {
   let sum = 0;
