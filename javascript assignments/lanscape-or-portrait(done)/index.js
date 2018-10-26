@@ -1,11 +1,8 @@
-let width = 5;
-let height = 4;
+function isLandscape (width, height) {
+  if (width == height) return 'Square';
+  return (width > height) ? 'Landscape' : 'Portrait';
+}
 
-if (width == height)
- console.log("square");
-
-if (width > height)
- console.log ("landscape");
-
-if (width < height)
- console.log ("portrait");
+let width = 800;
+let height = 800;
+console.log("This display geometry is", isLandscape (width, height));
